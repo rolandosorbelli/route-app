@@ -9,10 +9,11 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <ul></ul>
+        <ul>
         <li><Link to="/first-page">First Page</Link></li>
         <li><Link to="/second-page">Second Page</Link></li>
         <li><Link to="/third-page">Third Page</Link></li>
+        </ul>
       </div>
     );
   }
