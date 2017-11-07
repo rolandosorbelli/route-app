@@ -15,14 +15,8 @@ import {
 
 ReactDOM.render(<Router>
 	<div>
-		<ul>
-			<li><Link to="/">Home</Link></li>
-			<li><Link to="/contact">Contact</Link></li>
-		</ul>
-		<hr />
-
-		<Route exact path="/" component={Home} />
-		<Route path="/contact" component={Contact} />
+	<Route exact path="/" component={App} />
+	<Route path="/contact" component={Contact} />
 	</div>
 </Router>
 	, document.getElementById('root'));
